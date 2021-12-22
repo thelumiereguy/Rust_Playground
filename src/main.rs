@@ -16,10 +16,11 @@ mod pointers;
 mod structs;
 mod enums;
 mod cli;
+mod moving_borrowing;
 
 
 fn main() {
     // printing::print::run();
     // vars::run();
-    cli::cli::run();
+    moving_borrowing::moving_borrowing::run();
 }
