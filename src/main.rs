@@ -17,10 +17,11 @@ mod structs;
 mod enums;
 mod cli;
 mod moving_borrowing;
+mod traits;
 
 
 fn main() {
     // printing::print::run();
     // vars::run();
-    moving_borrowing::moving_borrowing::run();
+    traits::traits::run();
 }
